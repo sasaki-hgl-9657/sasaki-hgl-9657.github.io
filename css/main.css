@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 80px;
+    width: 100%;
+    background: cyan;
+    border: 8px solid blue;
+    text-align: center;
+}
+
+.footer {
+    height: 80px;
+    width: 100%;
+    background: red;
+    text-align: center;
+}
+
+.content {
+    height: 1500px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.main {
+    height: 100%;
+    width: 80%;
+    background: green;
+    text-align: center;
+}
+
+.sidebar {
+    height: 100%;
+    width: 20%;
+    text-align: center;
+    background: yellow;
+}
